@@ -31,11 +31,11 @@ const router = createBrowserRouter([
                         element: <BookDetail />,
                         children: [  
                             {
-                                path: ":chapters",
+                                path: "chapters",
                                 element: <Chapter />
                             },
                             {
-                                path: ":characters",
+                                path: "characters",
                                 element: <Character />
                             },
                         ]
